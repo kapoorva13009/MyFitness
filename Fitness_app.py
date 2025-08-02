@@ -128,6 +128,7 @@ with st.sidebar:
     )
     chart_selection = st.selectbox("Select a chart type",
                                    ("Line", "Area"))
+    st.info("Project By Apoorva Kumar")
 
 # Prepare data based on selected time frame
 if time_frame == 'Daily':
@@ -198,4 +199,5 @@ with st.expander('See The Data Used to show the metrics for Selected time frame'
     st.dataframe(df_filtered)
 
 st.markdown("**Quote of the day**")
+
 st.success("Consistency over intensity. Progress over perfection.")

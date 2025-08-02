@@ -111,6 +111,8 @@ def display_metric(col, title, value, df, column, color, time_frame):
 # Load data
 df = load_data()
 
+st.title("Fitness Tracker")
+
 # Set up input widgets
 
 st.sidebar.image("logo.PNG", width=500)
@@ -201,6 +203,7 @@ with st.expander('See The Data Used to show the metrics for Selected time frame'
 st.markdown("**Quote of the day**")
 
 st.success("Consistency over intensity. Progress over perfection.")
+
 
 
 

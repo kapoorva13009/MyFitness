@@ -113,7 +113,7 @@ df = load_data()
 
 # Set up input widgets
 
-st.sidebar.image("logo.png", width=500)
+st.sidebar.image("./logo.png", width=500)
 with st.sidebar:
     st.title("My Fitness Tracker")
     st.header("🔽 Filter")
@@ -201,4 +201,5 @@ with st.expander('See The Data Used to show the metrics for Selected time frame'
 st.markdown("**Quote of the day**")
 
 st.success("Consistency over intensity. Progress over perfection.")
+
 
